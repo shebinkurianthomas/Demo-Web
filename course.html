@@ -215,14 +215,68 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 &emsp;  &emsp;  <img src="1.jpg" width="500" height="200">
 </p>
 
-&emsp;  &emsp;  &emsp;  &emsp;  <button id="btncart1"><a href="cart.html"  style="font: bold 24px Arial; color:red;">Add-to-cart</a></button> &emsp;  &emsp;  			 
+&emsp;  &emsp;  &emsp;  &emsp;  <button id="btncart1" onclick = "dataLayer.push({
+  event: "add_to_cart",
+  ecommerce: {
+    items: [
+    {
+      item_id: "SKU_12345",
+      item_name: "Python",
+      affiliation: "Google Merchandise Store",
+      coupon: "SUMMER_FUN",
+      currency: "INR",
+      discount: 200,
+      index: 0,
+      item_brand: "Google",
+      item_category: "Apparel",
+      item_category2: "Adult",
+      item_category3: "Shirts",
+      item_category4: "Crew",
+      item_category5: "Short sleeve",
+      item_list_id: "related_products",
+      item_list_name: "Related Products",
+      item_variant: "green",
+      location_id: "ChIJIQBpAG2ahYAR_6128GcTUEo",
+      price: 2000,
+      quantity: 1
+    }
+    ]
+  }
+});"><a href="cart.html"  style="font: bold 24px Arial; color:red;">Add-to-cart</a></button> &emsp;  &emsp;  			 
 <button type="button" style="font: bold 24px  Arial; color:green;"><a href="sucess.html">Purchase</a></button><br />
 </br></br>
 <p>
 &emsp;  &emsp;  <img src="2.jfif" width="500" height="200">
 </p>
 
-&emsp;  &emsp;  &emsp;  &emsp;  <button id="btncart2"><a href="cart.html" style="font: bold 24px Arial; color:red;">Add-to-cart</a></button> &emsp;  &emsp;  			 
+&emsp;  &emsp;  &emsp;  &emsp;  <button id="btncart2" onclick = "dataLayer.push({
+  event: "add_to_cart",
+  ecommerce1: {
+    items: [
+    {
+      item_id: "SKU_1234",
+      item_name: "Web Analytics",
+      affiliation: "Google Merchandise Store",
+      coupon: "SUMMER_FUN",
+      currency: "INR",
+      discount: 200,
+      index: 0,
+      item_brand: "Google",
+      item_category: "Apparel",
+      item_category2: "Adult",
+      item_category3: "Shirts",
+      item_category4: "Crew",
+      item_category5: "Short sleeve",
+      item_list_id: "related_products",
+      item_list_name: "Related Products",
+      item_variant: "green",
+      location_id: "ChIJIQBpAG2ahYAR_6128GcTUEo",
+      price: 1000,
+      quantity: 1
+    }
+    ]
+  }
+});"><a href="cart.html" style="font: bold 24px Arial; color:red;">Add-to-cart</a></button> &emsp;  &emsp;  			 
 <button type="button" style="font: bold 24px  Arial; color:green;"><a href="sucess.html" id="btncart2_purchase">Purchase</a></button><br />
 
 </body>
